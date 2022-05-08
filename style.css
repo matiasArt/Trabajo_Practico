@@ -23,15 +23,12 @@ body {
 
 .nav{
   display: flex;
-  justify-items: end;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-ul {
   display: flex;
-  gap: 1px;
   align-items: flex-end;
-
 }
 
 .nav-li {
