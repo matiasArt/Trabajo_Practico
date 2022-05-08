@@ -23,6 +23,8 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 30px;
 }
 
 .nav-ul {
@@ -37,11 +39,22 @@ body {
 
 .nav-a {
   display: block;
-  padding: 8px;
-  color: var(--negro);
+  /* padding: 8px;
+  color: var(--blanco);
   text-decoration: none;
   text-align: center;
   font-weight: bold;
+  background-color: var(--negro);
+  border-right: var(--blanco) solid 1px; */
+  margin-bottom: 5px;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 250;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: var(--negro);
+  border-radius: 6px;
+  border: 1px solid #0016b0;
 }
 /* ---------Hover sobre navegador----------- */
 .nav-a:hover {
@@ -50,12 +63,13 @@ body {
 /* -----------Boton para Hamburguesa----- */
 .boton {
   display: none;
+  position: sticky;
+  top: 0;
 }
 /* -------------Media Query----------------- */
 @media (max-width: 767px) {
   .boton {
     display: block;
-    padding: 8px;
     margin-bottom: 15px;
     text-decoration: none;
     padding: 10px;
@@ -83,6 +97,7 @@ body {
 
 /* ------------Imagen Slider -------------- */
 .imagen-slider > a > img {
+  margin-top: 25px;
   max-height: 150px;
   width: 100%;
   margin-bottom: 40px;
