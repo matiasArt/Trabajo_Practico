@@ -1,3 +1,3 @@
-hamburguesa.addEventListener("click", () => {
-    lista-desplegable.classList.toggle("mostrar");
+boton.addEventListener("click", () => {
+    menu.classList.toggle("mostrar");
 });

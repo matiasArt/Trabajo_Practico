@@ -16,59 +16,73 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ------------ Nav-Titulo ------------*/
-.nav-titulo {
-  color: var(--grisOscuro);
-  font-size: 250%;
-  margin-left: 25px;
-}
-
-/* ------------ NAVEGACIÓN ------------ */
-
 .imagen-logo{
-    max-width: 100px;
-    max-height: 100px;
-    
+  max-width: 130px;
+  text-align: start;
 }
 
-.nav {
+.nav{
   display: flex;
+  justify-items: end;
   justify-content: space-around;
-  align-items: center;
-  padding: 10px 16px;
-  padding-left: 40px;
-  margin-bottom: 15px;
-  /* flex-wrap: wrap; */
 }
 
-.nav-lista {
-  flex-grow: 1;
+.nav-ul {
+  display: flex;
+  gap: 1px;
+  align-items: flex-end;
+
+}
+
+.nav-li {
   list-style: none;
-  display: flex;
-  justify-content: end;
-  display: flex;
-  flex-wrap: wrap;
-  /* background-color: aqua; */
+  flex-grow: 1; 
 }
 
-
-
-.nav-lista_item-link {
+.nav-a {
   display: block;
-  padding: 10px 12px;
-  text-decoration: none;
-  font-weight: bold;
+  padding: 8px;
   color: var(--negro);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
 }
 
-
-.nav-lista_item-link:hover {
+.nav-a:hover {
   color: var(--rojo);
-  text-decoration: underline;
 }
 
-.nav-lista:hover {
-  border-top: 2px solid --rojo;
+.boton{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .boton{
+      display: block;
+      padding: 8px;
+      margin-bottom: 15px;
+      text-decoration: none;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+      background-color: var(--negro);
+      border-radius: 6px;
+      border: 2px solid #0016b0;
+  }
+  .nav-ul {
+      display: block;
+      width: 90%;
+      margin-top: 20px;
+      display: none;
+  }
+  .nav-a {
+      border-bottom: 1px solid var(--grisOscuro);
+  }
+
+  .imagen-logo{
+    display: none;
+  }
 }
 
 /* ------------Imagen Slider -------------- */
@@ -84,7 +98,7 @@ body {
   padding: 32px;
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 24px;
+  row-gap: 50px;
   column-gap: 5px;
   margin-bottom: 40px;
   margin: auto 200px;
@@ -116,5 +130,10 @@ body {
 .formulario-contacto>h2{
   margin-bottom: 5px;
 }
+
+.mostrar{
+  display: block;
+}
+
 
 
