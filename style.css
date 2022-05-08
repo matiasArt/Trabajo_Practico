@@ -6,7 +6,7 @@
 
 :root {
   --azul: rgb(167, 165, 222);
-  --grisOscuro: #333;
+  --grisOscuro: #9b9b9b;
   --blanco: #fff;
   --negro: #000;
   --rojo: red;
@@ -94,9 +94,18 @@ body {
   margin-bottom: 18px;
 }
 
+/* -------------Footer------------------- */
 .pie {
-  background-color: black;
-  padding: 200px;
+  background-color: var(--negro);
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--blanco);
 }
 
-/* -------------Footer------------------- */
+.formulario-contacto>h2{
+  margin-bottom: 5px;
+}
+
+
