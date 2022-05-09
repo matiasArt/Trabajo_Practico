@@ -11,10 +11,12 @@
   --negro: #000;
   --rojo: red;
 }
+
 /* -----------------------------------------------INDEX----------------------------------------------------- */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* h1{
   font-size: medium;
   font-style: oblique;
@@ -24,6 +26,7 @@ body {
   max-width: 400px;
   margin-left: 25px;
 }
+
 /* -----------Nav---------------- */
 .nav {
   display: flex;
@@ -62,16 +65,19 @@ body {
   border-radius: 6px;
   border: 1px solid #0016b0;
 }
+
 /* ---------Hover sobre navegador----------- */
 .nav-a:hover {
   color: var(--rojo);
 }
+
 /* -----------Boton para Hamburguesa----- */
 .boton {
   display: none;
   position: sticky;
   top: 0;
 }
+
 /* -------------Media Query----------------- */
 @media (max-width: 767px) {
   .boton {
@@ -86,12 +92,14 @@ body {
     border-radius: 6px;
     border: 2px solid #0016b0;
   }
+
   .nav-ul {
     display: block;
     width: 90%;
     margin-top: 20px;
     display: none;
   }
+
   .nav-a {
     border-bottom: 1px solid var(--grisOscuro);
   }
@@ -102,7 +110,7 @@ body {
 }
 
 /* ------------Imagen Slider -------------- */
-.imagen-slider > a > img {
+.imagen-slider>a>img {
   margin-top: 25px;
   max-height: 150px;
   width: 100%;
@@ -144,7 +152,7 @@ body {
   color: var(--blanco);
 }
 
-.formulario-contacto > h2 {
+.formulario-contacto>h2 {
   margin-bottom: 5px;
 }
 
@@ -160,9 +168,58 @@ body {
   text-align: justify;
   font-family: "Courier New", Courier, monospace;
   font-style: oblique;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
 .nosotros-img {
   float: left;
   shape-outside: circle(90px);
 }
+
+
+/* -----------------------------------------CONTACTO----------------------------------------------------- */
+
+.contacto-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
+}
+
+.contacto-contenedor-lateral {
+  background-color: var(--grisOscuro);
+  text-align: center;
+  
+}
+
+.contacto-contenedor_formularios {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  row-gap: 15px;
+}
+
+.nombre,
+.telefono,
+.email,
+.textarea {
+  max-width: 400px;
+  align-items: center;
+}
+
+.boton-contacto{
+  margin-bottom: 15px;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: var(--negro);
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  width: 150px;
+}
+
+.boton-contacto:hover{
+  text-decoration: underline;
+}
+
