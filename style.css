@@ -17,11 +17,10 @@
   color: var(--azul_fuerte);
   font-style: oblique;
   text-align: center;
-  transform: all;
 }
 
 .nav-titulo:hover {
-  transform: scale(1.5);
+  color:var(--rojo);
 }
 
 /* -----------------------------------------------INDEX----------------------------------------------------- */
@@ -222,14 +221,14 @@ body {
 
 .nombre,
 .telefono,
-.email,
-.textarea {
-  max-width: 500px;
+.email{
+  max-width: 200px;
   text-align: left;
 }
 
 .textarea {
   height: 290px;
+  width: 350px;
 }
 
 .boton-contacto {
