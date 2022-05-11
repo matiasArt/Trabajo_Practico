@@ -6,10 +6,21 @@
 
 :root {
   --azul: rgb(167, 165, 222);
-  --grisOscuro: #D3D3D3;
+  --grisOscuro: #d3d3d3;
   --blanco: #fff;
   --negro: #000;
   --rojo: red;
+}
+
+.nav-titulo {
+  color: var(--grisOscuro);
+  font-style: oblique;
+  text-align: center;
+  transform: all;
+}
+
+.nav-titulo:hover {
+  transform: scale(1.5);
 }
 
 /* -----------------------------------------------INDEX----------------------------------------------------- */
@@ -110,7 +121,7 @@ body {
 }
 
 /* ------------Imagen Slider -------------- */
-.imagen-slider>a>img {
+.imagen-slider > a > img {
   margin-top: 25px;
   max-height: 150px;
   width: 100%;
@@ -152,7 +163,7 @@ body {
   color: var(--blanco);
 }
 
-.formulario-contacto>h2 {
+.formulario-contacto > h2 {
   margin-bottom: 5px;
 }
 
@@ -160,6 +171,9 @@ body {
   display: block;
 }
 
+.mail-footer{
+  color: green;
+}
 /* -----------------------------------------NOSOTROS------------------------------------------------ */
 
 .nosotros-table {
@@ -176,7 +190,6 @@ body {
   shape-outside: circle(90px);
 }
 
-
 /* -----------------------------------------CONTACTO----------------------------------------------------- */
 
 .contacto-contenedor {
@@ -188,25 +201,42 @@ body {
 .contacto-contenedor-lateral {
   background-color: var(--grisOscuro);
   text-align: center;
-  
+  margin: auto;
+  border: solid 2px var(--negro);
 }
 
 .contacto-contenedor_formularios {
   display: grid;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
   row-gap: 15px;
+  grid-template-rows: 1fr;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 35px;
+}
+
+.contacto-contenedor_formularios > .formulario > label {
+  width: 10px;
+  margin: left;
+  margin-bottom: 5px;
 }
 
 .nombre,
 .telefono,
 .email,
 .textarea {
-  max-width: 400px;
-  align-items: center;
+  max-width: 500px;
+  text-align: left;
 }
 
-.boton-contacto{
+.textarea {
+  height: 290px;
+}
+
+.boton-contacto {
   margin-bottom: 15px;
   text-decoration: none;
   padding: 10px;
@@ -219,7 +249,6 @@ body {
   width: 150px;
 }
 
-.boton-contacto:hover{
+.boton-contacto:hover {
   text-decoration: underline;
 }
-
