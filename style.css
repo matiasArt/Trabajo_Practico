@@ -210,25 +210,25 @@ body {
 .formulario {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 35px;
+  /* row-gap: 20px; */
 }
 
-.contacto-contenedor_formularios > .formulario > label {
-  width: 10px;
+ .contacto-contenedor_formularios > .formulario > label {
+  width: 150px;
   margin: left;
   margin-bottom: 5px;
-}
+} 
 
 .nombre,
 .telefono,
 .email{
-  max-width: 200px;
+  max-width: 208px;
   text-align: left;
 }
 
 .textarea {
-  height: 290px;
-  width: 350px;
+  height: 221px;
+  width: 208px;
 }
 
 .boton-contacto {
@@ -241,7 +241,7 @@ body {
   background-color: var(--negro);
   border-radius: 6px;
   border: 2px solid #0016b0;
-  width: 150px;
+  width: 100px;
 }
 
 .boton-contacto:hover {
