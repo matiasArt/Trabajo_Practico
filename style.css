@@ -176,9 +176,8 @@ body {
 .nosotros-table {
   max-width: 800px;
   margin: auto;
-  text-align: justify;
-  font-family: "Courier New", Courier, monospace;
-  font-style: oblique;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height : 25px;
   margin-bottom: 30px;
 }
 
