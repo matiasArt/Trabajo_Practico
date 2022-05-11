@@ -10,10 +10,11 @@
   --blanco: #fff;
   --negro: #000;
   --rojo: red;
+  --azul_fuerte:rgb(10, 10, 142);
 }
 
 .nav-titulo {
-  color: var(--grisOscuro);
+  color: var(--azul_fuerte);
   font-style: oblique;
   text-align: center;
   transform: all;
@@ -28,10 +29,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* h1{
-  font-size: medium;
-  font-style: oblique;
-} */
 /* ---------NAV -/ LOG ------------------- */
 .imagen-logo {
   max-width: 400px;
