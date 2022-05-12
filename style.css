@@ -187,6 +187,7 @@ body {
 
 /* -----------------------------------------CONTACTO----------------------------------------------------- */
 
+
 .contacto-contenedor {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -210,7 +211,7 @@ body {
 .formulario {
   display: grid;
   grid-template-columns: 1fr;
-  /* row-gap: 20px; */
+  row-gap: 20px;
 }
 
  .contacto-contenedor_formularios > .formulario > label {
@@ -222,13 +223,15 @@ body {
 .nombre,
 .telefono,
 .email{
-  max-width: 208px;
+  width: 190px;
   text-align: left;
+  height: 15px;
 }
 
 .textarea {
-  height: 221px;
-  width: 208px;
+  height: 185px;
+  resize: none;
+  margin-right: 155px;
 }
 
 .boton-contacto {
