@@ -1,9 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 :root {
   --azul: rgb(167, 165, 222);
   --grisOscuro: #d3d3d3;
@@ -114,6 +108,9 @@ body {
   .contacto-contenedor-lateral{
     display: none;
   }
+  .contacto-contenedor_formularios{
+    margin-left: 95px;
+  }
 }
 
 /* ------------Imagen Slider -------------- */
@@ -157,6 +154,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   color: var(--blanco);
+  align-items: center;
 }
 
 .formulario-contacto > h2 {
