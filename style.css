@@ -194,6 +194,10 @@ body {
   column-gap: 55px;
 }
 
+.titulo-formulario{
+  text-align: center;
+}
+
 .contacto-contenedor-lateral {
   background-color: var(--grisOscuro);
   text-align: center;
@@ -212,6 +216,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
+  margin-left: 20px;
 }
 
  .contacto-contenedor_formularios > .formulario > label {
