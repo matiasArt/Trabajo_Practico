@@ -81,7 +81,7 @@ body {
   top: 0;
 }
 
-/* -------------Media Query----------------- */
+/* -------------Media Queries----------------- */
 @media (max-width: 767px) {
   .boton {
     display: block;
@@ -108,6 +108,10 @@ body {
   }
 
   .imagen-logo {
+    display: none;
+  }
+
+  .contacto-contenedor-lateral{
     display: none;
   }
 }
@@ -219,15 +223,15 @@ body {
 .nombre,
 .telefono,
 .email{
-  width: 190px;
+  width: 250px;
   text-align: left;
   height: 15px;
 }
 
 .textarea {
   height: 185px;
-  resize: none;
-  margin-right: 100px;
+  margin-right: 50px;
+  padding: 15px;
 }
 
 .boton-contacto {
