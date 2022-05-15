@@ -2,84 +2,90 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>ARCA - Electromedicina</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ARCA - Electromedicina</title>
 </head>
 
-<body>
+<body class="body-contacto">
+  <div class="contenedor-general">
     <input type="button" value="Menu" class="boton" id="boton" />
     <nav class="nav">
-        <!-- <img class="imagen-logo" src="imagenes/logo.png" alt="logo de la empresa"/>      -->
-        <ul class="nav-ul" id="menu">
-            <li class="nav-li">
-                <a href="index.html" class="nav-a">Home</a>
-            </li>
-            <li class="nav-li">
-                <a href="index.html" class="nav-a">Productos</a>
-            </li>
-            <li class="nav-li">
-                <a href="index.html" class="nav-a">Servicios</a>
-            </li>
-            <li class="nav-li">
-                <a href="contacto.html" class="nav-a">Contacto</a>
-            </li>
-            <li class="nav-li">
-                <a href="nosotros.html" class="nav-a">Nosotros</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- cierra .nav-lista -->
+      <!-- <img class="imagen-logo" src="imagenes/logo.png" alt="logo de la empresa"/>      -->
+      <ul class="nav-ul" id="menu">
+        <li class="nav-li">
+          <a href="index.html" class="nav-a">Home</a>
+        </li>
+        <li class="nav-li">
+          <a href="index.html" class="nav-a">Productos</a>
+        </li>
+        <li class="nav-li">
+          <a href="index.html" class="nav-a">Servicios</a>
+        </li>
+        <li class="nav-li">
+          <a href="contacto.html" class="nav-a">Contacto</a>
+        </li>
+        <li class="nav-li">
+          <a href="nosotros.html" class="nav-a">Nosotros</a>
+        </li>
+      </ul>
+    </nav><!-- cierra .nav-lista -->
+
     <h1 class="nav-titulo">ARCA Electromedicina</h1>
 
     <div class="contacto-contenedor">
-        <div class="contacto-contenedor-lateral">
-            <h2>Informacion Contacto</h2>
-            <adress>Av. Directorio 733 - (1424)</adress><br />
-            <city>Ciudad Autónoma de Buenos Aires</city><br />
-            <phone>Tel: (011) 4924-0434</phone><br />
-            <mail><a href="mailto:hege@example.com">arturi@fibertel.com.ar</a></mail><br />
-            <p>Horario: Lun-Vier de 9 a 18hs</p>
-            <h3>Representantes en:</h3>
-            <p>EEUU , MEXICO , CHILE , BRASIL Y URUGUAY.</p>
-            <p>Para representarnos en su país, por favor comuníquese con nosotros.</p>
-            <img src="imagenes/logo.png" alt="logo de la empresa">
-        </div>
+      <div class="contacto-contenedor-lateral">
+        <h2>Informacion Contacto</h2>
+        <adress>Av. Directorio 733 - (1424)</adress><br />
+        <city>Ciudad Autónoma de Buenos Aires</city><br />
+        <phone>Tel: (011) 4924-0434</phone><br />
+        <mail><a href="mailto:hege@example.com">arturi@fibertel.com.ar</a></mail><br />
+        <p>Horario: Lun-Vier de 9 a 18hs</p>
+        <h3>Representantes en:</h3>
+        <p>EEUU , MEXICO , CHILE , BRASIL Y URUGUAY.</p>
+        <p>
+          Para representarnos en su país, por favor comuníquese con nosotros.
+        </p>
+        <img src="imagenes/logo.png" alt="logo de la empresa" />
+      </div><!-- ---------Cierra lateral------------ -->
 
-        <!-- ---------Cierra lateral------------ -->
-
-        <div class="contacto-contenedor_formularios">
-            <h2 class="titulo-formulario">Hacenos tu consulta</h2>
-            <form class="formulario" action="formulario_contacto.js">
-                <h4 class="titulo-formulario">Envíenos su consulta, comentario o pedido y nos contactaremos con usted a la brevedad.</h4>
-                <label> <small> Nombre: </small>
-                <input type="text" class="nombre" placeholder="NOMBRE" size="50"/>
-                </label>
-                <label> <small> Teléfono: </small>
-                <input type="text" class="telefono" placeholder="TELEFONO" size="50"/>
-                </label>
-                <label> <small> E- Mail :</small>  
-                <input type="text" class="email" placeholder="ejemplo@email.com" size="50"/>
-                 </label>
-                <textarea name="textarea" class="textarea" placeholder="Deja tu Comentario" aria-label="Ingrese comentarios"></textarea>
-                <input type="button" value="Enviar" class="boton-contacto">
-            </form>
-        </div>
-    </div> <!-- -------Cierra contacto-contenedor------------- -->
-
-   
+      <div class="contacto-contenedor_formularios">
+        <h2 class="titulo-formulario">Hacenos tu consulta</h2>
+        <form class="formulario" action="formulario_contacto.js">
+          <h4 class="titulo-formulario">
+            Envíenos su consulta, comentario o pedido y nos contactaremos con
+            usted a la brevedad.
+          </h4>
+          <label>
+            <small> Nombre: </small>
+            <input type="text" class="nombre" placeholder="NOMBRE" size="50" />
+          </label>
+          <label>
+            <small> Teléfono: </small>
+            <input type="text" class="telefono" placeholder="TELEFONO" size="50" />
+          </label>
+          <label>
+            <small> E- Mail :</small>
+            <input type="text" class="email" placeholder="ejemplo@email.com" size="50" />
+          </label>
+          <textarea name="textarea" class="textarea" placeholder="Deja tu Comentario"
+            aria-label="Ingrese comentarios"></textarea>
+          <input type="button" value="Enviar" class="boton-contacto" />
+        </form>
+      </div><!-- -------Cierra contacto-contenedor-formulario------------- -->
+    </div><!-- -------Cierra contacto-contenedor------------- -->
 
     <footer class="pie">
-        <div class="social">
-            <a href="#"><img src="imagenes/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="imagenes/linkedin.png" alt="linkedin" /></a>
-            <a href="#"><img src="imagenes/twitter.png" alt="twitter" /></a>
-        </div>
-    </footer>
-    <!-- ---------Cierra Footer--------------- -->
+      <div class="social">
+        <a href="#"><img src="imagenes/facebook.png" alt="facebook" /></a>
+        <a href="#"><img src="imagenes/linkedin.png" alt="linkedin" /></a>
+        <a href="#"><img src="imagenes/twitter.png" alt="twitter" /></a>
+      </div>
+    </footer><!-- ---------Cierra Footer--------------- -->
     <script src="archivo.js"></script>
+  </div>
 </body>
 
 </html>

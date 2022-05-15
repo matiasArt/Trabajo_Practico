@@ -4,8 +4,8 @@
   --blanco: #fff;
   --negro: #000;
   --rojo: red;
-  --azul_fuerte:rgb(10, 10, 142);
-  --fondo_nav:#f2f2f2;
+  --azul_fuerte: rgb(10, 10, 142);
+  --fondo_nav: #f2f2f2;
 }
 
 .nav-titulo {
@@ -16,7 +16,7 @@
 }
 
 .nav-titulo:hover {
-  color:var(--rojo);
+  color: var(--rojo);
 }
 
 /* -----------------------------------------------INDEX----------------------------------------------------- */
@@ -37,7 +37,7 @@ body {
   position: sticky;
   top: 0px;
   /* background-color: var(--blanco); */
-  background-color:  var(--fondo_nav);
+  background-color: var(--fondo_nav);
 }
 
 .nav-ul {
@@ -63,7 +63,7 @@ body {
   border: 1px solid #0016b0;
 }
 
-/* ---------Hover sobre navegador----------- */
+/* ---------Hover sobre navegador h1----------- */
 .nav-a:hover {
   color: var(--rojo);
 }
@@ -105,16 +105,20 @@ body {
     display: none;
   }
 
-  .contacto-contenedor-lateral{
+  .contacto-contenedor-lateral {
     display: none;
   }
-  .contacto-contenedor_formularios{
+
+  /* --------pagina contacto */
+  .contacto-contenedor_formularios {
     margin-left: 95px;
   }
+
+  /* --------pagina contacto */
 }
 
 /* ------------Imagen Slider -------------- */
-.imagen-slider > a > img {
+.imagen-slider>a>img {
   margin-top: 25px;
   max-height: 150px;
   width: 100%;
@@ -157,7 +161,7 @@ body {
   align-items: center;
 }
 
-.formulario-contacto > h2 {
+.formulario-contacto>h2 {
   margin-bottom: 5px;
 }
 
@@ -165,16 +169,17 @@ body {
   display: block;
 }
 
-.mail-footer{
+.mail-footer {
   color: green;
 }
+
 /* -----------------------------------------NOSOTROS------------------------------------------------ */
 
 .nosotros-table {
   max-width: 800px;
   margin: auto;
   font-family: Helvetica, Arial, sans-serif;
-  line-height : 25px;
+  line-height: 25px;
   margin-bottom: 30px;
 }
 
@@ -185,6 +190,16 @@ body {
 
 /* -----------------------------------------CONTACTO----------------------------------------------------- */
 
+.body-contacto{
+  background-image: url("imagenes/fondo_contacto.jpg");
+  background-size: cover;
+}
+
+.contenedor-general{
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .contacto-contenedor {
   display: grid;
@@ -192,8 +207,9 @@ body {
   column-gap: 55px;
 }
 
-.titulo-formulario{
+.titulo-formulario {
   text-align: center;
+  padding: 15px;
 }
 
 .contacto-contenedor-lateral {
@@ -209,13 +225,13 @@ body {
   flex-direction: column;
 }
 
- .contacto-contenedor_formularios > .formulario > label {
+.contacto-contenedor_formularios>.formulario>label {
   margin-bottom: 50px;
-} 
+}
 
 .nombre,
 .telefono,
-.email{
+.email {
   width: 250px;
   text-align: left;
   height: 15px;
@@ -223,7 +239,6 @@ body {
 
 .textarea {
   height: 185px;
-  padding: 15px;
 }
 
 .boton-contacto {
