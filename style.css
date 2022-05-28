@@ -91,7 +91,7 @@ body {
   }
 
   .nav-ul {
-    display: block;
+    /* display: block; */
     width: 90%;
     margin-top: 20px;
     display: none;
@@ -105,16 +105,18 @@ body {
     display: none;
   }
 
+  /* --------pagina contacto */
   .contacto-contenedor-lateral {
     display: none;
   }
 
-  /* --------pagina contacto */
   .contacto-contenedor_formularios {
     margin-left: 95px;
   }
 
-  /* --------pagina contacto */
+  .mostrar{
+    display: block;
+  }
 }
 
 /* ------------Imagen Slider -------------- */
@@ -165,9 +167,7 @@ body {
   margin-bottom: 5px;
 }
 
-.mostrar {
-  display: block;
-}
+
 
 .mail-footer {
   color: green;
