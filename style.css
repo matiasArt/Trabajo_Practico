@@ -114,10 +114,21 @@ body {
     margin-left: 95px;
   }
 
-  .mostrar{
+  .mostrar {
     display: block;
   }
-}
+
+  .equipo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .productos .equipo-info{
+    display: block;
+  }
+
+}/*------------- Cierra Media Q----------- */
 
 /* ------------Imagen Slider -------------- */
 .imagen-slider>a>img {
@@ -140,12 +151,11 @@ body {
   justify-content: center;
 }
 
-.equipo-info {
+ .equipo-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
   align-items: center;
-}
+ } 
 
 .equipo-titulo {
   margin-bottom: 18px;
@@ -259,3 +269,5 @@ body {
 .boton-contacto:hover {
   text-decoration: underline;
 }
+
+
