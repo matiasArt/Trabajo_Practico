@@ -6,6 +6,7 @@
   --rojo: red;
   --azul_fuerte: rgb(10, 10, 142);
   --fondo_nav: #f2f2f2;
+  --mail_verde: #5dd25b;
 }
 
 .nav-titulo {
@@ -181,7 +182,7 @@ body {
 
 
 .mail-footer {
-  color: green;
+  color: var(--mail_verde);
 }
 
 /* -----------------------------------------NOSOTROS------------------------------------------------ */
