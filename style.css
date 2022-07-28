@@ -38,7 +38,8 @@ body {
   position: sticky;
   top: 0px;
   /* background-color: var(--blanco); */
-  background-color: var(--fondo_nav);
+  /* border-top: thin solid var(--first-color);
+  border-bottom: thin solid var(--first-color); */
 }
 
 .nav-ul {
