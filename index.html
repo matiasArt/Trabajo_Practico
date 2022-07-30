@@ -94,12 +94,18 @@
     </div><!-- --Aca cierra social ----- -->
 
     <div class="formulario-contacto">
-      <h2>Newsletter</h2>
-      <form>
+      <h2>Newsletter:</h2>
+      <form method="post" class="contact-form" id="miForm" >
         <label><small>Ingrese mail:</small>
-          <input type="email" placeholder="ejemplo@email.com" required/>
+          <input type="text" placeholder="ejemplo@email.com" name="email" required/>
         </label>
-        <input type="submit" value="subscribirse" alt="enviar" />
+        <input type="submit" value="enviar" alt="enviar" style="padding: 2px;"/>
+        <div class="contact-form-loader none">
+          <img src="imagenes/loader.svg" alt="Cargando">
+        </div>
+        <div class="contact-form-response none">
+          <p>Los datos han sido enviados</p>
+        </div>
       </form>
     </div><!-- ---------Cierra formulario subscripcion--------------- -->
   </footer><!-- ---------Cierra Footer--------------- -->

@@ -74,6 +74,7 @@ function contactForm() {
      },3000));
   });
 }
-
-
 d.addEventListener("DOMContentLoaded", contactForm)
+
+
+
