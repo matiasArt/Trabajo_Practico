@@ -21,10 +21,11 @@ function mostrarGanadores(ganadores) {
         let apellido = ganadores.apellido;
 
         let item = document.createElement('li');
-        item.innerHTML = `Los ganadores del mes son: <b>${nombre}</b> <b>${apellido}</b> !!!!!!!!`;
+        item.innerHTML = `Ganador: <b>${nombre}</b> <b>${apellido}</b> !!!!!!!!`;
         lista.appendChild(item);
     }
 }
+
 
 
 
